@@ -20,7 +20,7 @@ defineOptions({
 });
 
 interface Props extends OUIAProps, /* @vue-ignore */ Omit<ComponentProps<typeof PfInputGroupItem>, 'box' | 'ouiaId' | 'ouiaSafe'> {
-    /** Component that wraps the input group text. */
+  /** Component that wraps the input group text. */
   component?: string | Component;
     /** Flag to indicate if the input group item is plain. */
   plain?: boolean;

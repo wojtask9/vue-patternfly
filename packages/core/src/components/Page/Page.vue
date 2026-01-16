@@ -43,7 +43,6 @@
     </div>
 
     <main-container v-else/>
-
   </div>
 </template>
 
@@ -89,7 +88,6 @@ import { ref, provide, computed, watch, type Ref, type InjectionKey, type Writab
 import PfDrawer from '../Drawer/Drawer.vue';
 import PfDrawerContent from '../Drawer/DrawerContent.vue';
 import PfDrawerPanelContent from '../Drawer/DrawerPanelContent.vue';
-import PfDrawerContentBody from '../Drawer/DrawerContentBody.vue';
 import { useOUIAProps, type OUIAProps } from '../../helpers/ouia';
 import { getBreakpoint, getVerticalBreakpoint } from '../../util';
 import { provideChildrenTracker, type ChildrenTrackerInjectionKey } from '../../use';
